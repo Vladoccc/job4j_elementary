@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.variables;
 
 public class Variables {
     public static void main(String[] args) {
@@ -18,5 +18,5 @@ public class Variables {
         System.out.println(work);
         long file = 12482;
         System.out.println(file);
-            }
     }
+}
