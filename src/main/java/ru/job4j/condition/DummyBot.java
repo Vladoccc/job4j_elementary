@@ -7,8 +7,6 @@ public class DummyBot {
             result = "Hi, SmartAss.";
         } else if ("Bye.".equals(question)) {
             result = "See you later.";
-        } else if ("Can you add two plus two?".equals(question)) {
-            result  = "I don't know. Please, ask another question.";
         }
         return result;
     }
@@ -17,8 +15,6 @@ public class DummyBot {
         String result = DummyBot.answer("Hi, Bot.");
         System.out.println(result);
         result = DummyBot.answer("Bye.");
-        System.out.println(result);
-        result = DummyBot.answer("I don't know. Please, ask another question.");
         System.out.println(result);
     }
 }
