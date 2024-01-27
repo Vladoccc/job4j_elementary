@@ -4,9 +4,6 @@ public class EqualLast {
 
     public static boolean check(int[] left, int[] right) {
         boolean result = true;
-        if (left[left.length - 1] != right[right.length - 1]) {
-            return false;
-        }
-        return result;
+        return left[left.length - 1] == right[right.length - 1];
     }
 }
