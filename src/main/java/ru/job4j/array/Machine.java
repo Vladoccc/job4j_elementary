@@ -9,12 +9,11 @@ public class Machine {
         int[] result = new int[100];
         int size = 0;
         money -= price;
-        for (int moneta : coins) {
-            while (money >= moneta) {
-                result[size] = moneta;
-                money -= moneta;
+        for (int coin : coins) {
+            while (money >= coin) {
+                result[size] = coin;
+                money -= coin;
                 size++;
-
             }
         }
         return Arrays.copyOf(result, size);
